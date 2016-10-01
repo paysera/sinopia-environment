@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sinopia:
+    image: keyvanfatehi/sinopia:latest
+    ports:
+      - 4873:4873
+    volumes:
+      - sinopia:/opt/sinopia/storage
+
+volumes:
+  sinopia: {}
