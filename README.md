@@ -2,7 +2,7 @@
 ### Initial setup
 ##### Download config.yml
 ```bash
-curl -L https://github.com/verdaccio/verdaccio/blob/master/conf/docker.yaml -o data/config.yaml
+curl -L https://raw.githubusercontent.com/verdaccio/verdaccio/master/conf/docker.yaml -o data/config.yaml
 ```
 ##### Create service
 ```bash
