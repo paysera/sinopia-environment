@@ -5,7 +5,7 @@ services:
     ports:
       - 4873:4873
     volumes:
-      - sinopia:/verdaccio/storage
+      - sinopia:/opt/sinopia/storage
 
 volumes:
   sinopia: {}
