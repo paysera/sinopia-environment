@@ -12,7 +12,7 @@ fi
 
 # Run
 ${GIT_BIN_DIRECTORY}/git pull
-${DOCKER_BIN_DIRECTORY}/docker cp data/config.yaml sinopiaenvironment_sinopia_1:/opt/sinopia
+${DOCKER_BIN_DIRECTORY}/docker cp data/config.yaml sinopiaenvironment_sinopia_1:/verdaccio/conf
 ${DOCKER_COMPOSER_BIN_DIRECTORY}/docker-compose up -d --force-recreate
 
 # Custom setup
